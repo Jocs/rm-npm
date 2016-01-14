@@ -1,6 +1,9 @@
 {
   "name": "rm-npm",
   "version": "0.0.1",
+  "bin": {
+    "rm-npm": "./bin.js"
+  },
   "description": "A node module to remove the node_module directory and bower_components directory if necessary",
   "main": "index.js",
   "scripts": {

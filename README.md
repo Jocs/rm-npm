@@ -1,6 +1,6 @@
 #### Useage
 
-Install with `npm install rmNpm -g` .
+Install with `$ npm install rm-npm -g` .
 
 #### API
 

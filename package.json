@@ -1,6 +1,6 @@
 {
   "name": "rm-npm",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "bin": {
     "rm-npm": "./bin.js"
   },
@@ -8,12 +8,21 @@
   "description": "A node module to remove the node_module directory and bower_components directory if necessary",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src.js",
+    "build": "webpack"
   },
   "keywords": [
     "remove",
     "node_modules"
   ],
   "author": "Jocs",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "eslint": "^1.10.3",
+    "eslint-plugin-standard": "^1.3.1"
+  }
 }

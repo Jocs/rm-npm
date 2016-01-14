@@ -8,12 +8,13 @@ Install with `npm install rmNpm -g` .
 
 If you want to rm all the `node_modules` `bower_components` directory in your project, just run the follow command.
 
-> $ rmNpm
+``` $ rm-npm
+```
 
 #### In Your Project
 
 ``` javascript
-const rmNpm = require('rmNpm')
+const rmNpm = require('rm-npm')
 // just run like this
 rmNpm(__dirname)
 ```

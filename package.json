@@ -1,0 +1,15 @@
+{
+  "name": "rm-npm",
+  "version": "0.0.1",
+  "description": "A node module to remove the node_module directory and bower_components directory if necessary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remove",
+    "node_modules"
+  ],
+  "author": "Jocs",
+  "license": "MIT"
+}
